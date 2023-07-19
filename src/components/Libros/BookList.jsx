@@ -126,9 +126,6 @@ const BookList = () => {
       )}
       {selectedBook && <div className={BookListDetalles.fondoOpaco} onClick={handleCloseDetail}></div>}
       <div className={style.botonMostrarLeidos}>
-        <button onClick={handleLibrosLeidosToggle}>
-          {librosLeidosVisible ? 'Ocultar Leídos' : 'Mostrar Leídos'}
-        </button>
       </div>
     </div>
   );
