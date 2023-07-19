@@ -1,0 +1,41 @@
+.contenedorFiltros {
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filtroTitulo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px; /* Margen izquierdo para filtrar por título */
+  }
+  
+  .filtroTitulo input {
+    width: 250px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 3px solid wheat;
+    border-radius: 20px;
+    outline: none;
+    color: wheat;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .filtroPaginas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filtroPaginas input[type="range"] {
+    width: 150px;
+    margin-top: 10px; /* Espacio entre el filtro y el rango */
+  }
+  
+  /* Agregamos una clase para que el texto "Mostrando X libros" se alinee a la derecha */
+  .mostrandoLibros {
+    margin-right: 100px; /* Margen derecho para "Mostrando X libros" */
+  }

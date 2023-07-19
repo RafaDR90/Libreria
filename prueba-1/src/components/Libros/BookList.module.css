@@ -1,0 +1,75 @@
+.main {
+  background-color: rgb(24, 24, 24);
+  min-height: 100vh;
+}
+
+.contenedorGrid {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 20px;
+}
+
+.contenedorListaLibros {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedorListaLibros img {
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid white;
+}
+
+.libro {
+  width: 200px;
+  height: 500px;
+  background-color: rgb(41, 41, 41);
+  border: 2px solid white;
+  margin: 10px;
+}
+
+.libro h2 {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+.datosLibro {
+  margin: 2px;
+}
+
+.contenedorLibrosLeidos {
+  max-height: 700px;
+  overflow-y: auto;
+  background-color: rgb(68, 68, 68);
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: width 0.3s ease-in-out;
+}
+
+
+
+.botonMostrarLeidos {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.contenedorLibrosLeidos .libroLeido img {
+  width: 100%;
+  height: 50%; /* Altura de la imagen aumentada en 50px */
+}
+
+.tituloLeido{
+  color: white;
+  font-weight: bold;
+}
+
+.tituloLeido{
+  color: red;
+  text-align: center;
+}
